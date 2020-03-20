@@ -1,0 +1,12 @@
+[submodule "powerline-fonts"]
+	path = powerline-fonts
+	url = git@github.com:powerline/fonts.git
+[submodule "spaceship-prompt"]
+	path = oh-my-zsh-custom/themes/spaceship-prompt
+	url = git@github.com:denysdovhan/spaceship-prompt.git
+[submodule "zsh-syntax-highlighting"]
+	path = oh-my-zsh-custom/plugins/zsh-syntax-highlighting
+	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
+[submodule "zsh-autosuggestions"]
+	path = oh-my-zsh-custom/plugins/zsh-autosuggestions
+	url = git@github.com:zsh-users/zsh-autosuggestions
