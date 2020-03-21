@@ -1,21 +1,28 @@
 [submodule "powerline-fonts"]
 	path = lib/powerline-fonts
 	url = https://github.com/powerline/fonts.git
+	shallow = true
 [submodule "spaceship-prompt"]
 	path = .oh-my-zsh-custom/themes/spaceship-prompt
 	url = https://github.com/denysdovhan/spaceship-prompt.git
+	shallow = true
 [submodule "zsh-syntax-highlighting"]
 	path = .oh-my-zsh-custom/plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
+	shallow = true
 [submodule "zsh-autosuggestions"]
 	path = .oh-my-zsh-custom/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+	shallow = true
 [submodule "ohmyzsh"]
 	path = .oh-my-zsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git
+	shallow = true
 [submodule "lib/vim-pathogen"]
 	path = lib/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
+	shallow = true
 [submodule ".vim/bundle/vim-colors-solarized"]
 	path = .vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+	shallow = true
