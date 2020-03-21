@@ -9,3 +9,5 @@ if osx_darkmode_status == "Dark"
 elseif osx_darkmode_status == "Light"
     set background=light
 endif
+
+colorscheme solarized

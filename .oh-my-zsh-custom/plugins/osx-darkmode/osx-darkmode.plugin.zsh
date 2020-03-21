@@ -50,6 +50,8 @@ function _darkmode_iTerm() {
 _darkmode_status
 _darkmode_iTerm ${OSX_DARKMODE_STATUS}
 
+export OSX_DARKMODE_STATUS
+
 # ALIASES
 alias light=_light
 alias dark=_dark
