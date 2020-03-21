@@ -78,7 +78,10 @@ plugins=(
   direnv
   zsh-syntax-highlighting
   zsh-autosuggestions
+  osx-darkmode
 )
+
+OSX_DARKMODE_ITERM_ENABLE="true"
 
 source $ZSH/oh-my-zsh.sh
 
