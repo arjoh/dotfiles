@@ -13,12 +13,14 @@ Natively supported are:
 - [iTerm2](https://www.iterm2.com/)
 
 When the plugin is loaded, it sets the variable `OSX_DARKMODE_STATUS`, which can be used in other [applications](#Apps) as well.<br/>
-*Limitation:* Because the mode is set at load time, it will only affect new shells.
+*Limitation:* Because the mode is set at load time, it will only affect new shells. You can switch 'manually' in the current shell by using the `light` and `dark` aliases.
 
 ## Aliases
 
 | Alias  | Command                | Description                                               |
 | ------ | -----------------------|---------------------------------------------------------- |
+| light  | `_light`               | Force Light mode in this terminal                         |
+| dark   | `_dark`                | Force Dark mode in this terminal                          |
 
 ## Configuration Variables
 
