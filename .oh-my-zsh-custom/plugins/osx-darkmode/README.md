@@ -37,11 +37,11 @@ I recommend using the [Solarized Colorscheme for Vim](https://github.com/alterca
 To enable in [Vim](https://www.vim.org/), add the following to you `.vimrc`:
 
 ```
+" osx-darkmode
 let osx_darkmode_status = $OSX_DARKMODE_STATUS
-
 if osx_darkmode_status == "Dark"
     set background=dark
 elseif osx_darkmode_status == "Light"
-    set background=light        " Set solarized background color
+    set background=light
 endif
 ```
