@@ -1,5 +1,5 @@
 [submodule "powerline-fonts"]
-	path = powerline-fonts
+	path = lib/powerline-fonts
 	url = git@github.com:powerline/fonts.git
 [submodule "spaceship-prompt"]
 	path = .oh-my-zsh-custom/themes/spaceship-prompt
@@ -13,3 +13,9 @@
 [submodule "ohmyzsh"]
 	path = .oh-my-zsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule "lib/vim-pathogen"]
+	path = lib/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
