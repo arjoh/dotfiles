@@ -1,6 +1,6 @@
 # Only run on macOS systems
 if [[ "$(uname -s)" != "Darwin" ]]; then
-    exit 0;
+    return 1
 fi
 
 # CONFIGURATION VARIABLES
