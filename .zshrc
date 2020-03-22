@@ -78,10 +78,10 @@ plugins=(
   direnv
   zsh-syntax-highlighting
   zsh-autosuggestions
-  osx-darkmode
+  macos-darkmode
 )
 
-OSX_DARKMODE_ITERM_ENABLE="true"
+MACOS_DARKMODE_ITERM_ENABLE="true"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -112,4 +112,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 ZSHRC="$HOME/.zshrc"
-
+DOTFILES="$HOME/dotfiles"
