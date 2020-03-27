@@ -36,7 +36,7 @@ function _darkmode_iTerm() {
     # If another ITERM_PROFILE was set, assume the user set it purposely and do nothing.
     # unless we're called manually.
     [[ "${ITERM_PROFILE}" != "${MACOS_DARKMODE_ITERM_DARK}" ]] && \
-    [[ "${ITERM_PROFILE}" != "${MACOS_DARKMODE_ITERM_DARK}" ]] && \
+    [[ "${ITERM_PROFILE}" != "${MACOS_DARKMODE_ITERM_LIGHT}" ]] && \
     [[ "${_force}" != "true" ]] && return 1
 
     local _set
