@@ -29,17 +29,15 @@ function _darkmode_iTerm() {
     local _mode=${1}
     local _force=${2}
 
-    # If ITERM_PROFILE is not set, bail out.    
-    [[ -z ${ITERM_PROFILE} ]] && return 1
+    # If ITERM_PROFILE is not set or _ENABLE isn't set to "true", bail out.    
+    [[ -z ${ITERM_PROFILE} ]] || \
+    [[ "${MACOS_DARKMODE_ITERM_ENABLE}" != "true" ]] && return 1
 
     # If another ITERM_PROFILE was set, assume the user set it purposely and do nothing.
-    [[  "${MACOS_DARKMODE_ITERM_ENABLE}" != "true" && \
-        "${_force}" == "true" || \
-        (
-          "${ITERM_PROFILE}" != "${MACOS_DARKMODE_ITERM_DARK}" && \
-          "${ITERM_PROFILE}" != "${MACOS_DARKMODE_ITERM_LIGHT}" \
-        )
-        ]] && return 1
+    # unless we're called manually.
+    [[ "${ITERM_PROFILE}" != "${MACOS_DARKMODE_ITERM_DARK}" ]] && \
+    [[ "${ITERM_PROFILE}" != "${MACOS_DARKMODE_ITERM_DARK}" ]] && \
+    [[ "${_force}" != "true" ]] && return 1
 
     local _set
 
