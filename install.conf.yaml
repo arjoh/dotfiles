@@ -12,5 +12,5 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [test -x $(which zsh) && chsh -s $(which zsh), Making zsh the default shell]
+  - [chsh -s $(which zsh), Making zsh the default shell]
 
