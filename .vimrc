@@ -10,5 +10,6 @@ if macos_darkmode_status == "Dark"
 elseif macos_darkmode_status == "Light"
     set background=light
 endif
+call togglebg#map("<F5>")
 
 colorscheme solarized
