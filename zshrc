@@ -119,6 +119,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+if [[ -d "$HOME/bin" ]]; then
+   path+=($HOME/bin)
+fi
 
 ZSHRC="$HOME/.zshrc"
 DOTFILES="$HOME/dotfiles"
