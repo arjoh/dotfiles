@@ -4,6 +4,7 @@
       relink: true
 
 - link:
+    ~/.gitconfig:
     ~/.oh-my-zsh:
     ~/.oh-my-zsh-custom:
     ~/.zshrc:
