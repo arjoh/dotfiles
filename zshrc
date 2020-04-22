@@ -73,7 +73,6 @@ ZSH_CUSTOM="$HOME/.oh-my-zsh-custom"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  docker-compose
   direnv
   zsh-syntax-highlighting
   zsh-autosuggestions
