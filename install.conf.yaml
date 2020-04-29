@@ -10,6 +10,7 @@
     ~/.zshrc:
     ~/.vim:
     ~/.vimrc:
+    ~/.condarc:
 
 - create:
     - ~/bin
