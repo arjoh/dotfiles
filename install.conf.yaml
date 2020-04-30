@@ -5,6 +5,7 @@
 
 - link:
     ~/.gitconfig:
+    ~/.gitignore_global:
     ~/.oh-my-zsh:
     ~/.oh-my-zsh-custom:
     ~/.zshrc:
