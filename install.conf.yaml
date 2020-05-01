@@ -12,6 +12,7 @@
     ~/.vim:
     ~/.vimrc:
     ~/.condarc:
+    ~/.direnvrc:
 
 - create:
     - ~/bin

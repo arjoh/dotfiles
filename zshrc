@@ -77,6 +77,7 @@ plugins=(
   direnv
   zsh-syntax-highlighting
   zsh-autosuggestions
+  rbenv
 )
 
 
