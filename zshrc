@@ -75,6 +75,8 @@ plugins=(
   git
   docker-compose
   direnv
+  zsh-syntax-highlighting
+  zsh-autosuggestions
   rbenv
 )
 
@@ -120,15 +122,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 if [[ -d "$HOME/bin" ]]; then
    path+=($HOME/bin)
-fi
-
-# zsh-autosuggestions
-if [[ -f "/usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh" ]]; then
-   source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-fi
-# zsh-syntax-highlighting
-if [[ -d "/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting" ]]; then
-   source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
 ZSHRC="$HOME/.zshrc"
