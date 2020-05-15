@@ -1,9 +1,21 @@
+#osx
 plugins+=(
   osx
   macos-darkmode
+)
+
+MACOS_DARKMODE_ITERM_ENABLE="true"
+
+#editors
+plugins+=(
   sublime
   conda
   vscode
 )
 
-MACOS_DARKMODE_ITERM_ENABLE="true"
+#python
+plugins+=(
+  python
+  pip
+  django
+)
