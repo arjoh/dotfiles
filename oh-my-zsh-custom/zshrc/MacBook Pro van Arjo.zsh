@@ -19,3 +19,8 @@ plugins+=(
   pip
   django
 )
+
+#various
+plugins+=(
+  exiftool
+)
