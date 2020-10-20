@@ -73,6 +73,7 @@ ZSH_CUSTOM="$HOME/.oh-my-zsh-custom"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  git-flow
   docker
   docker-compose
   direnv
@@ -124,6 +125,11 @@ source $ZSH/oh-my-zsh.sh
 if [[ -d "$HOME/bin" ]]; then
    path+=($HOME/bin)
 fi
+
+if [[ -d "$HOME/.local/bin" ]]; then
+   path+=($HOME/.local/bin)
+fi
+
 
 ZSHRC="$HOME/.zshrc"
 DOTFILES="$HOME/dotfiles"
