@@ -12,6 +12,6 @@
   dump = cat-file -p
 [core]
 	excludesfile = ~/.gitignore_global
-[push]
+	editor = vim
 [push]
 	default = simple
