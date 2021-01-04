@@ -27,3 +27,6 @@
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
 	shallow = true
+[submodule "lib/ruby-build"]
+	path = lib/ruby-build
+	url = https://github.com/rbenv/ruby-build.git
