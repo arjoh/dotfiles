@@ -5,10 +5,10 @@ syntax enable
 
 " macos-darkmode
 let macos_darkmode_status = $MACOS_DARKMODE_STATUS
-if macos_darkmode_status == "Dark"
-    set background=dark
-elseif macos_darkmode_status == "Light"
+if macos_darkmode_status == "Light"
     set background=light
+else
+    set background=dark
 endif
 call togglebg#map("<F5>")
 
