@@ -18,10 +18,6 @@
 	path = lib/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
 	shallow = true
-[submodule ".vim/bundle/vim-colors-solarized"]
-	path = vim/bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
-	shallow = true
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
