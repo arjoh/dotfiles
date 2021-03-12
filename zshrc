@@ -74,6 +74,7 @@ ZSH_CUSTOM="$HOME/.oh-my-zsh-custom"
 plugins=(
   git
   git-flow
+  github
   docker
   docker-compose
   direnv
