@@ -9,7 +9,6 @@
     ~/.oh-my-zsh:
     ~/.oh-my-zsh-custom:
     ~/.zshrc:
-    ~/.vim:
     ~/.vimrc:
     ~/.condarc:
     ~/.direnvrc:
@@ -21,5 +20,7 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [chsh -s $(which zsh), Making zsh the default shell]
+#  - [chsh -s $(which zsh), Making zsh the default shell]
+
+
 
