@@ -6,3 +6,7 @@ use_ruby() {
   rbenv local $1
   layout ruby
 }
+
+# find local exports
+[ -f ~/.direnv.export ] && source ~/.direnv.export
+
