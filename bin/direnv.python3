@@ -1,0 +1,1 @@
+test ! -f .envrc && echo "layout python3" >> .envrc && direnv allow
