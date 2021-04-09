@@ -13,9 +13,9 @@
     ~/.condarc:
     ~/.direnvrc:
     ~/.rbenv/plugins/ruby-build: lib/ruby-build
+    ~/bin: bin
 
 - create:
-    - ~/bin
     - ~/.nvm
 
 - shell:
