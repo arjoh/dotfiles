@@ -1,0 +1,12 @@
+#!/bin/sh
+which -s lpass || { echo "lpass not installed." && exit 1 ;}
+if [ ! -f ~/.direnv.exports ]; then
+  touch ~/.direnv.exports && chmod 600 ~/.direnv.exports
+  echo "Downloading ~/.direnv.exports from LastPass.." && \
+  lpass status -q || \
+    { echo "LastPass email: \c" && read lpemail && \
+      lpass login $lpemail ;}
+  lpass status && lpass show --notes "direnv.exports" >> ~/.direnv.exports && echo "Done." && exit 0
+else
+  echo "~/.direnv.exports exists" && exit 1
+fi
