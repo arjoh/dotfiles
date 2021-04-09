@@ -20,6 +20,7 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [mkdir -p ~/src && test ! -f ~/src/.envrc &&  touch ~/src/.envrc && which -s direnv && direnv allow ~/src/.envrc, Setting up direnv in ~/src]
 #  - [chsh -s $(which zsh), Making zsh the default shell]
 
 

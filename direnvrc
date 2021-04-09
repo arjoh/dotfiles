@@ -8,5 +8,5 @@ use_ruby() {
 }
 
 # find local exports
-[ -f ~/.direnv.export ] && source ~/.direnv.export
+[ -f ~/.direnv.exports ] && source ~/.direnv.exports
 
