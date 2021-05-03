@@ -1,5 +1,5 @@
 #!/bin/sh
-which -s lpass || { echo "lpass not installed." && exit 1 ;}
+{ which lpass >/dev/null ;} || { echo "lpass not installed." && exit 1 ;}
 if [ ! -f ~/.direnv.exports ]; then
   touch ~/.direnv.exports && chmod 600 ~/.direnv.exports
   echo "Downloading ~/.direnv.exports from LastPass.." && \
