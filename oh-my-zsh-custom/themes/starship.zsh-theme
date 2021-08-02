@@ -1,1 +1,1 @@
-spaceship-prompt/spaceship.zsh-theme
+eval "$(starship init zsh)"
