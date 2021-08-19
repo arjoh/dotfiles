@@ -79,6 +79,8 @@ plugins=(
   zsh-syntax-highlighting
   zsh-autosuggestions
   rbenv
+  nvm
+  npm
 )
 
 
