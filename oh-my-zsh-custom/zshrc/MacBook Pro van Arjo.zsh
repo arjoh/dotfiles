@@ -17,7 +17,6 @@ plugins+=(
 plugins+=(
   python
   pip
-  django
 )
 
 #node
