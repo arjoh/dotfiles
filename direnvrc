@@ -6,3 +6,10 @@ use_ruby() {
   rbenv local $1
   layout ruby
 }
+
+# find local exports
+if [ -f ~/.direnv.exports ]; then
+   source ~/.direnv.exports
+fi
+#[ -f ~/.direnv.exports ] && source ~/.direnv.exports
+

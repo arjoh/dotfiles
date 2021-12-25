@@ -10,10 +10,21 @@
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
   type = cat-file -t
   dump = cat-file -p
+
+  # https://dev.to/mmphego/how-to-create-a-github-pull-requests-from-the-cli-500j
+  create-pr="!f() { \
+    BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD); \
+    git push -u origin "${BRANCH_NAME}"; \
+    hub pull-request --no-edit; \
+  };f"
+
 [core]
 	excludesfile = ~/.gitignore_global
 	editor = vim
+	autocrlf = input
 [push]
 	default = simple
 [pull]
 	rebase = false
+[init]
+	defaultBranch = main

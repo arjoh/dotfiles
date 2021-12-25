@@ -9,17 +9,20 @@
     ~/.oh-my-zsh:
     ~/.oh-my-zsh-custom:
     ~/.zshrc:
-    ~/.vim:
     ~/.vimrc:
     ~/.condarc:
     ~/.direnvrc:
     ~/.rbenv/plugins/ruby-build: lib/ruby-build
+    ~/bin: bin
 
 - create:
-    - ~/bin
     - ~/.nvm
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [chsh -s $(which zsh), Making zsh the default shell]
+  - [mkdir -p ~/src && test ! -f ~/src/.envrc &&  touch ~/src/.envrc && which -s direnv && direnv allow ~/src/.envrc, Setting up direnv in ~/src]
+  - [curl -s https://starship.rs/install.sh | sh -s -- --yes, Installing starship prompt]
+#  - [chsh -s $(which zsh), Making zsh the default shell]
+
+
 
