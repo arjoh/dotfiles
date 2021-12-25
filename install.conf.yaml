@@ -13,6 +13,7 @@
     ~/.vimrc:
     ~/.condarc:
     ~/.direnvrc:
+    ~/.rbenv/plugins/ruby-build: lib/ruby-build
 
 - create:
     - ~/bin
