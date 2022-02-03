@@ -13,4 +13,3 @@ export LANG=en_US.UTF-8
 
 sudo ip li set mtu 1200 dev eth0
 
-function gateway() { ip route show default|awk '{print $3}' }
