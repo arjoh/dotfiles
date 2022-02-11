@@ -1,6 +1,6 @@
 #osx
 plugins+=(
-  osx
+  macos
   macos-darkmode
 )
 
