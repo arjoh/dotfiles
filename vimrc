@@ -1,3 +1,3 @@
-set nu nowrap
+set nu nowrap expandtab
 syntax enable
 
