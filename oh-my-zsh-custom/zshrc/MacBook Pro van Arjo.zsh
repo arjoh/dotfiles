@@ -13,5 +13,5 @@ plugins+=(
 
 alias bundleid='/usr/libexec/PlistBuddy -c "Print CFBundleIdentifier"'
 
-#export LC_ALL="en_GB.UTF-8"
+export LC_ALL="en_US.UTF-8"
 
