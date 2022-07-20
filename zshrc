@@ -78,6 +78,7 @@ plugins=(
   git
   git-flow
   github
+  kubectl
   ng
   npm
   nvm
