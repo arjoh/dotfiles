@@ -71,6 +71,7 @@ ZSH_CUSTOM="$HOME/.oh-my-zsh-custom"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  azure-cli
   copypath
   direnv
   docker
