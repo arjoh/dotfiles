@@ -80,7 +80,6 @@ plugins=(
   git-flow
   github
   kubectl
-  ng
   npm
   nvm
   pip
@@ -141,4 +140,9 @@ fi
 
 ZSHRC="$HOME/.zshrc"
 DOTFILES="$HOME/dotfiles"
+
+
+
+# Load Angular CLI autocompletion.
+which -s ng >/dev/null 2>&1 && source <(ng completion script)
 
