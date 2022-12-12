@@ -24,6 +24,7 @@
 	autocrlf = input
 [push]
 	default = simple
+	autoSetupRemote = true
 [pull]
 	rebase = false
 [init]
