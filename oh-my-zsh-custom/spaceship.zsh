@@ -1,5 +1,5 @@
 #Old
-;SPACESHIP_PROMPT_ORDER=(
+SPACESHIP_PROMPT_ORDER=(
   time          # Time stampts section
   user          # Username section
   dir           # Current directory section
@@ -96,7 +96,6 @@ SPACESHIP_PROMPT_ORDER=(
   user           # Username section
   dir            # Current directory section
   host           # Hostname section
-  git            # Git section (git_branch + git_status)
   node           # Node.js section
   ruby           # Ruby section
   python         # Python section
@@ -107,6 +106,7 @@ SPACESHIP_PROMPT_ORDER=(
   kubectl        # Kubectl context section
   terraform      # Terraform workspace section
   exec_time      # Execution time
+  git            # Git section (git_branch + git_status)
   line_sep       # Line break
   battery        # Battery level and status
   jobs           # Background jobs indicator
