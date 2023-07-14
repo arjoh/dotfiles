@@ -76,8 +76,9 @@ plugins=(
   direnv
   docker
   docker-compose
+  extract
   git
-  git-flow
+#  git-flow
   github
   kubectl
   npm
