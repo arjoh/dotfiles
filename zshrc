@@ -9,6 +9,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="starship"
+ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -70,17 +71,20 @@ ZSH_CUSTOM="$HOME/.oh-my-zsh-custom"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  azure-cli
+  copypath
   direnv
   docker
   docker-compose
+  extract
   git
-  git-flow
+#  git-flow
   github
-  ng
+  kubectl
   npm
-  npx
   nvm
   pip
+  poetry
   python
   rbenv
   vscode
@@ -108,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
@@ -136,6 +140,6 @@ if [[ -d "$HOME/.local/bin" ]]; then
    path+=($HOME/.local/bin)
 fi
 
-
 ZSHRC="$HOME/.zshrc"
 DOTFILES="$HOME/dotfiles"
+
