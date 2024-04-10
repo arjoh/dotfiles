@@ -4,7 +4,7 @@
 
 ### apt
 
-        sudo apt install git zsh jq direnv
+        sudo apt install git zsh jq direnv tmux
 
 ### node
 
