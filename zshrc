@@ -76,8 +76,9 @@ plugins=(
   direnv
   docker
   docker-compose
+  extract
   git
-  git-flow
+#  git-flow
   github
   kubectl
   npm
@@ -141,9 +142,4 @@ fi
 
 ZSHRC="$HOME/.zshrc"
 DOTFILES="$HOME/dotfiles"
-
-
-
-# Load Angular CLI autocompletion.
-which -s ng >/dev/null 2>&1 && source <(ng completion script)
 

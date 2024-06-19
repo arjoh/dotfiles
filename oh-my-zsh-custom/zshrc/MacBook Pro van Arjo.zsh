@@ -1,7 +1,7 @@
 #osx
 plugins+=(
   macos
-  macos-darkmode
+#  macos-darkmode
 )
 
 MACOS_DARKMODE_ITERM_ENABLE="true"
