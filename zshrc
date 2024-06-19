@@ -83,6 +83,7 @@ plugins=(
   npm
   nvm
   pip
+  poetry
   python
   rbenv
   vscode
