@@ -8,6 +8,7 @@ MACOS_DARKMODE_ITERM_ENABLE="true"
 
 #various
 plugins+=(
+  gh
   exiftool
 )
 
