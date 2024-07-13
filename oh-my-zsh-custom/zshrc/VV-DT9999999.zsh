@@ -2,6 +2,7 @@ plugins+=(
   azure
   golang
   ssh-agent
+  terraform
 )
 zstyle :omz:plugins:ssh-agent identities id_rsa
 
