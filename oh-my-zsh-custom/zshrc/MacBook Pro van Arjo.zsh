@@ -2,7 +2,10 @@
 plugins+=(
   macos
 #  macos-darkmode
+  platformio
+#  ssh-agent
 )
+zstyle :omz:plugins:ssh-agent identities id_rsa
 
 MACOS_DARKMODE_ITERM_ENABLE="true"
 
