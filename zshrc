@@ -88,6 +88,7 @@ plugins=(
   python
   rbenv
   vscode
+  z
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
