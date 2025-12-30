@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+IPD_COOKIE_DIR="$HOME/.pyicloud"
+IPD_IT=""
+IPD_U="-u $(id -u):$(id -g)"
+
+command=$(basename $0)
+
+if [ "$command" != "icloudpd" -a "$command" != "icloud" ] ; then
+   command=""
+fi
+
+
+
+if [ -t 0 ] ; then
+   IPD_IT="-it "
+fi
+
+mkdir -p "${IPD_COOKIE_DIR}"
+docker run ${IPD_IT}--rm --name icloudpd \
+    -e TZ=Europe/Amsterdam \
+    -v "/volume1/photo/iCloud:/data" \
+    -v "${IPD_COOKIE_DIR}:/cookies" \
+    ${IPD_U} \
+    icloudpd/icloudpd:latest ${command} ${*} --cookie-directory "/cookies"
+
