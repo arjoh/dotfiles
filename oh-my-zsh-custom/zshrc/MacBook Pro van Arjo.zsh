@@ -19,3 +19,4 @@ alias bundleid='/usr/libexec/PlistBuddy -c "Print CFBundleIdentifier"'
 
 export LC_ALL="en_US.UTF-8"
 
+path=($(brew --prefix python3)/libexec/bin $path)
