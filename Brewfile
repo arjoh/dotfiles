@@ -1,4 +1,6 @@
 brew "direnv"
+brew "exiftool"
+brew "hub"
 brew "oniguruma"
 brew "jq"
 brew "libevent"
