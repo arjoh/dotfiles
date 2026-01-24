@@ -109,10 +109,6 @@ else
   SHORT_HOST=${HOST/.*/}
 fi
 
-if [[ -f "$ZSH_CUSTOM/zshrc/$SHORT_HOST.zsh"  ]]; then
-  source "$ZSH_CUSTOM/zshrc/$SHORT_HOST.zsh"
-fi
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
