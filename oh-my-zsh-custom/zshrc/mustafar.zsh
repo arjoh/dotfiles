@@ -7,6 +7,7 @@ plugins+=(
 zstyle :omz:plugins:ssh-agent identities id_rsa
 
 SPACESHIP_DOCKER_SHOW=false
+VSCODE=codium
 PLATFORMIO_SETTING_PROJECTS_DIR=~/src/PlatformIO
 path+=('/home/arjo/.platformio/penv/bin')
 
