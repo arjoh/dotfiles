@@ -1,6 +1,6 @@
 plugins+=(
   hugo
-  platformio
+#  platformio
   tmux
 #  ssh-agent
 )
@@ -9,6 +9,7 @@ zstyle :omz:plugins:ssh-agent identities id_rsa
 SPACESHIP_DOCKER_SHOW=false
 PLATFORMIO_SETTING_PROJECTS_DIR=~/src/PlatformIO
 path+=('/home/arjo/.platformio/penv/bin')
+VSCODE=codium
 
 umask 022
 
