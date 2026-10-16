@@ -1,6 +1,6 @@
 plugins+=(
   hugo
-#  platformio
+  platformio
   tmux
 #  ssh-agent
 )

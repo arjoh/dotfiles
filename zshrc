@@ -84,14 +84,15 @@ plugins=(
   docker
   docker-compose
   extract
+  gh
   git
 #  git-flow
-  github
+#  github
   kubectl
   npm
   nvm
   pip
-  poetry
+#  poetry
   python
   rbenv
   vscode
